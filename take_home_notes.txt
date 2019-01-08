@@ -1,0 +1,11 @@
+1. Ensure that validation set contains no data that has relations to training set
+
+2. Ensemble works best; border weights are useful too.
+
+3. Train network on inverted image can prove useful as well
+
+4. Train rough network on downsampled images, then train a better network on border crop images.
+
+5. Postprocessing: find antenna splits and connect them
+
+
